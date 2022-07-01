@@ -215,9 +215,10 @@ display: inline-block;
   background-position: center/cover;
   background-size: cover;
   height: 700px;
-  width: 100%;
+  width: 105%;
   position: relative;
   background-attachment: fixed;
+
 }
 
 
