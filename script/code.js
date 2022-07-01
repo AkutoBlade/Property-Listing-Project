@@ -1,4 +1,4 @@
-
+//Run First
 // const property = [{
 //     id: 1,
 //     address: "960 Kolokolo Place",
@@ -70,7 +70,7 @@
 //     bedroom: 3,
 //     bathroom: 2,
 //     land_size_ft: 12200
-// },git
+// },
 // {
 //     id: 9,
 //     address: "280 Poipu Drive",
@@ -110,6 +110,8 @@
 // ]
 
 // localStorage.setItem("property", JSON.stringify(property));
+
+//Beginning of the the code
 
 const properties = JSON.parse(localStorage.getItem("property"));
 const propertiesBox = document.getElementById("properties")

@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    height: 1000vh;
     overflow-x:hidden;
 
 }
@@ -16,7 +16,7 @@ body {
 
 .btn {
     box-shadow: 0vw 0vw 1vw white;
-    text-shadow: 0vw 0vw 1vw white
+    text-shadow: 0vw 0vw 1vw white;
 }
 
 .rounded-circle {
@@ -81,6 +81,7 @@ body {
     gap: 80px;
     margin-top: 4%;
     margin-left: 1%;
+    width:100%;
 }
 
 .sizes{
@@ -143,7 +144,8 @@ box-shadow: 0vw 0vw 1vw rgba(70, 143, 252, 0.973) ;
 }
 
 main{
-    height: 140vh;
+  display:flex;
+  height: 1
 };
 
 .icon{
@@ -178,6 +180,7 @@ footer{
   height:50px;
   text-align: center;
   font-weight: bold;
+  width: 105%;
 }
 
 
@@ -214,13 +217,150 @@ display: inline-block;
   background-repeat: no-repeat;
   background-position: center/cover;
   background-size: cover;
-  height: 700px;
+  height: 100%;
   width: 105%;
   position: relative;
   background-attachment: fixed;
 
 }
 
+@media(max-width:425px){
+  #filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    top: -6%;
+    left: 10%;
+    bottom: 2%;
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0vw 1vw 2vw rgba(105, 118, 129, 0.418);
+    border-radius: 10px;
+}
+.btn{
+  gap:10px;
+}
+.title {
+  background-color: rgba(105, 118, 129, 0.52);
+  padding: 4px 4px 4px 4px;
+  bottom: 10%;
+}
+
+.searchs{
+  bottom:12%;
+}
+.sizes{
+  left:17%;
+}
+}
+
+@media(max-width:375px){
+
+.sizes{
+  left:9%;
+}
+}
+
+@media(max-width:320px){
+  #filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    top: -6%;
+    left: 10%;
+    bottom: 2%;
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0vw 1vw 2vw rgba(105, 118, 129, 0.418);
+    border-radius: 10px;
+    text-align: center;
+}
+.btn{
+  gap:10px;
+}
+.title {
+  background-color: rgba(105, 118, 129, 0.52);
+  padding: 4px 4px 4px 4px;
+  bottom: 12%;
+}
+
+.searchs{
+  bottom:14%;
+}
+.sizes{
+  left:0%;
+}
+}
+@media(width:1024px){
+#filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: -3%;
+    left: 13%;
+    bottom: 2%;
+    width: 800px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0vw 1vw 2vw rgba(105, 118, 129, 0.418);
+    border-radius: 10px;
+}
+
+.sizes{
+  left:50%;
+}
+
+}
+@media(width:1325px){
+  #filter {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: absolute;
+      top: -3%;
+      left: 20%;
+      bottom: 2%;
+      width: 800px;
+      height: 100px;
+      background-color: white;
+      box-shadow: 0vw 1vw 2vw rgba(105, 118, 129, 0.418);
+      border-radius: 10px;
+  }
+  
+  .sizes{
+    left:30%;
+  }
+  
+  }
+
+  @media(width:1440px){
+    #filter {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        top: -3%;
+        left: 23%;
+        bottom: 2%;
+        width: 800px;
+        height: 100px;
+        background-color: white;
+        box-shadow: 0vw 1vw 2vw rgba(105, 118, 129, 0.418);
+        border-radius: 10px;
+    }
+    
+    .sizes{
+      left:-12%;
+    }
+    
+    }
 
 /* Clound */
 
