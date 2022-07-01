@@ -69,7 +69,7 @@ body {
 }
 
 #width{
-    margin-left: 2.5%;
+    margin-left: 5%;
     padding-top: 25px;
     padding-bottom: 20px;
     width:100%
@@ -136,6 +136,12 @@ body {
     padding-right: 0px;
 }
 
+.sizes:hover{
+width: 350px;
+height: 300px;
+box-shadow: 0vw 0vw 1vw rgba(70, 143, 252, 0.973) ;
+}
+
 main{
     height: 140vh;
 };
@@ -167,6 +173,54 @@ footer{
 #box_shift{
  margin-top: 1%;
 }
+
+.borders{
+  height:50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.width{
+display: inline-block;
+}
+
+#buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+#count{
+  border-radius: 100px;
+  color: white;
+  background-color: #767f85;
+  width: 20px;
+  padding: 0 5px 0 5px;
+}
+
+#countwidth{
+  width: 200px;
+}
+
+#countflex{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+}
+
+#backgroundAdmin{
+  background-image: linear-gradient(rgba(61, 106, 145, 0.521), rgba(0, 133, 241, 0.52)), url(/image/WallpaperDog-17055502.jpg);
+  background-repeat: no-repeat;
+  background-position: center/cover;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  position: relative;
+  background-attachment: fixed;
+}
+
+
 /* Clound */
 
 html,
@@ -324,4 +378,16 @@ svg {
     -moz-transform: translateX(-1000px);
     transform: translateX(-1000px);
   }
+}
+
+.modal-body input {
+  width: 100%;
+}
+.modal-body {
+  height: 500px;
+}
+#bottomBorder {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
 }
